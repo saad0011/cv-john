@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #eee;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+color: #11999e;
+}
+.container{
+    max-width: 1000px;
+    padding:  20px;
+    margin: 0 auto;
+    background-color: #e4f9f5;
+}
+header{
+
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.clear{
+    clear: both;
+}
+.header-contact a{
+ text-decoration: none;
+}
+.header-contact a:hover{
+text-decoration: underline;
+color: #2b9ead;
+}
+hr{
+    border: 3px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+float: left;
+width: 30%;
+}
+.right-div{
+float: right;
+width: 70%;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20 auto;
+}
+.right-div .a{
+width: 45%;
+float: left;
+}
+.right-div .b{
+width: 45%;
+float: right;
+}
+ footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ footer a{
+    color: white;
+    text-decoration: none;
+ }
+ footer a:hover{
+    text-decoration: underline; 
+ }
